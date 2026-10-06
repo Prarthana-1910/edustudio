@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #172A3A;
+  --color-orange: #F28C28;
+  --color-concrete: #D9D9D6;
+  --color-paper: #F5F3EE;
+  --color-yellow: #F4C542;
+
+  --font-display: 'Barlow Condensed', -apple-system, sans-serif;
+  --font-body: 'DM Sans', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Custom CSS variables for precise referencing */
+:root {
+  --navy: #172A3A;
+  --orange: #F28C28;
+  --concrete: #D9D9D6;
+  --paper: #F5F3EE;
+  --yellow: #F4C542;
+
+  /* Global motion tokens: One easing curve, one duration scale */
+  --ease-civil: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 0.2s;
+  --dur-base: 0.4s;
+  --dur-deliberate: 0.7s;
+}
+
+/* Light theme body defaults */
+body {
+  background-color: var(--paper);
+  color: var(--navy);
+}
+
+/* Image placeholder: navy at 8% opacity over paper */
+.img-placeholder {
+  background-color: rgba(23, 42, 58, 0.08);
+}
+
+/* Lenis Recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

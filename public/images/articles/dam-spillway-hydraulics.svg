@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#172A3A"/>
+  <!-- Ogee crest spillway profile -->
+  <path d="M100 120 L240 120 C320 120, 360 180, 420 300 L680 380" stroke="#F5F3EE" stroke-width="5" fill="none"/>
+  <!-- Stilling basin baffle blocks -->
+  <rect x="520" y="340" width="24" height="24" fill="#F28C28"/>
+  <rect x="580" y="355" width="24" height="24" fill="#F28C28"/>
+  <!-- Hydraulic jump streamline -->
+  <path d="M120 100 L240 100 C320 100, 370 170, 440 280 Q510 320, 560 260 Q620 200, 720 310" stroke="#F4C542" stroke-width="3" fill="none" stroke-dasharray="6 3"/>
+  <text x="60" y="60" fill="#F4C542" font-family="JetBrains Mono, monospace" font-size="14" font-weight="bold">SEC HYD-01 // OGEE CREST SPILLWAY &amp; STILLING BASIN ENERGY DISSIPATION</text>
+  <text x="60" y="85" fill="#D9D9D6" font-family="JetBrains Mono, monospace" font-size="11">FROUDE NUMBER: Fr = 4.8 | CAVITATION INDEX SIGMA &gt; 0.28</text>
+</svg>

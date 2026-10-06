@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="8" fill="#172A3A"/>
+  <!-- Rising sun semi-circle motif -->
+  <circle cx="32" cy="46" r="22" fill="#F28C28"/>
+  <circle cx="32" cy="46" r="14" fill="#F4C542"/>
+  <!-- I-beam structural girder silhouette -->
+  <path d="M20 20 H44 M32 20 V44 M20 44 H44" stroke="#F5F3EE" stroke-width="4" stroke-linecap="square"/>
+  <rect x="22" y="56" width="20" height="3" fill="#D9D9D6"/>
+</svg>

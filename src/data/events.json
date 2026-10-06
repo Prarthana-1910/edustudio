@@ -1,0 +1,129 @@
+[
+  {
+    "_comment": "Sample content to replace",
+    "id": "evt-01",
+    "title": "Metro Viaduct Pier Construction & High-Strength Rebar Walkthrough",
+    "slug": "metro-pier-construction-walkthrough",
+    "date": "2026-11-14T09:00:00.000Z",
+    "endDate": "2026-11-14T13:00:00.000Z",
+    "time": "9:00 AM - 1:00 PM",
+    "location": "Blue Line Viaduct Extension, Pier 18 Site Compound",
+    "type": "site-visit",
+    "status": "upcoming",
+    "coverImage": "/images/hero/events-hero.png",
+    "summary": "Walk inside the active construction perimeter of the rail viaduct to observe deep bored pile caps, spiral cage lowering, and concrete pours.",
+    "audience": "Civil engineering students of all years interested in heavy infrastructure and field work.",
+    "details": [
+      "We are heading out to the active Blue Line rail viaduct site to see how deep foundations and pier columns are built in the real world. Our host engineer will walk us through the entire sequence, from drilling 2.4-meter shaft excavations to positioning heavy rebar cages.",
+      "Students will get a close look at how high-strength spiral confinement steel is spliced using mechanical couplers rather than standard lap splices. We will also stand by as concrete is pumped through a tremie pipe to displace drilling slurry.",
+      "This site visit is organized with the project's contractor team. Hard hats, high-visibility vests, and steel-toed boots will be provided at the field trailer before entering the work zone."
+    ],
+    "highlights": [
+      "Watch a 15-ton pre-assembled rebar cage hoisted and lowered into a drilled shaft",
+      "Learn how contractors test concrete slump and flow before pumping",
+      "See ultrasonic cross-hole logging tubes used to verify pile integrity",
+      "Walk along the active viaduct deck with the resident project engineer",
+      "Ask practical questions about starting work as a junior field engineer"
+    ],
+    "published": true
+  },
+  {
+    "_comment": "Sample content to replace",
+    "id": "evt-02",
+    "title": "Hands-On 3D Finite Element Modeling in DIANA & PLAXIS",
+    "slug": "3d-finite-element-modeling-workshop",
+    "date": "2026-09-19T13:00:00.000Z",
+    "endDate": "2026-09-19T17:00:00.000Z",
+    "time": "1:00 PM - 5:00 PM",
+    "location": "Civil Engineering Computer Lab, Hall 302",
+    "type": "workshop",
+    "status": "past",
+    "coverImage": "/images/hero/blogs-hero.png",
+    "summary": "A practical masterclass where students set up 3D constitutive geotechnical models to simulate diaphragm walls and staged excavations.",
+    "audience": "Undergraduate and graduate students who want practical numerical modeling experience.",
+    "details": [
+      "Most classroom structural analysis stops at 2D trusses and beams. In this afternoon workshop, our lab team guided participants through building their first complete 3D finite element meshes for a deep excavation support system.",
+      "Students learned how to set up soil-structure interaction boundaries, apply non-linear hardening soil models, and simulate the staged installation of prestressed tieback anchors.",
+      "Everyone followed along on university lab workstations with sample tutorial datasets provided by practicing geotechnical consultants."
+    ],
+    "highlights": [
+      "Built a full 3D mesh for an anchored sheet pile wall in soft clay",
+      "Calibrated small-strain shear modulus parameters from seismic soil data",
+      "Simulated step-by-step dewatering and pore water pressure drawdowns",
+      "Plotted shear force envelopes and bending moment diagrams for wall design",
+      "Automated model geometry generation using Python scripts"
+    ],
+    "takeaways": [
+      "Finite element results depend heavily on soil constitutive assumptions, not just mesh density",
+      "Staged excavation modeling must track pore water pressures at each construction phase",
+      "Python scripting saves hours when testing wall anchor spacing and stiffness"
+    ],
+    "published": true
+  },
+  {
+    "_comment": "Sample content to replace",
+    "id": "evt-03",
+    "title": "Low-Carbon Geopolymer Cements & Slag Binders in Practice",
+    "slug": "low-carbon-geopolymer-cements-talk",
+    "date": "2026-05-12T17:30:00.000Z",
+    "endDate": "2026-05-12T19:30:00.000Z",
+    "time": "5:30 PM - 7:30 PM",
+    "location": "Campus Materials Testing Auditorium & Quad Concourse",
+    "type": "talk",
+    "status": "past",
+    "coverImage": "/images/construction-sunset.png",
+    "summary": "An interactive evening seminar on replacing Ordinary Portland Cement with alkali-activated industrial pozzolans in structural foundations.",
+    "audience": "Students interested in sustainable materials, concrete mix design, and structural durability.",
+    "details": [
+      "Concrete production accounts for roughly eight percent of worldwide carbon emissions. This session focused on practical alternatives that can be poured today without sacrificing early compressive strength.",
+      "Our guest researchers demonstrated how ground granulated blast-furnace slag and fly ash can be alkali-activated to form durable geopolymer binders that resist aggressive sulfate attack.",
+      "Following the technical presentation, students examined cured test cylinders and reviewed 28-day stress-strain curve readouts from the compression testing frame."
+    ],
+    "highlights": [
+      "Reviewed chemical activation mechanisms of alkali-activated aluminosilicate slag",
+      "Compared 7-day and 28-day compressive strengths against standard mix designs",
+      "Inspected core samples cured under ambient and heat-accelerated conditions",
+      "Discussed supply chain hurdles and local ready-mix plant batching limits",
+      "Open Q&A on upcoming municipal specifications for low-embodied-carbon concrete"
+    ],
+    "takeaways": [
+      "Alkali activation can cut embodied carbon by up to seventy percent compared to OPC",
+      "Mix rheology and initial workability loss remain the key challenges during summer pours",
+      "Proper curing is essential to avoid drying shrinkage cracks in fly-ash geopolymer slabs"
+    ],
+    "published": true
+  },
+  {
+    "_comment": "Sample content to replace",
+    "id": "evt-04",
+    "title": "Wind Tunnel Testing & Aerodynamic Damping for Cable-Stayed Bridges",
+    "slug": "wind-tunnel-testing-cable-stayed-bridges",
+    "date": "2026-02-20T14:00:00.000Z",
+    "endDate": "2026-02-20T16:30:00.000Z",
+    "time": "2:00 PM - 4:30 PM",
+    "location": "Boundary Layer Wind Tunnel Facility, South Campus",
+    "type": "site-visit",
+    "status": "past",
+    "coverImage": null,
+    "summary": "A tour and demonstration inside the boundary layer wind tunnel testing section models for vortex-induced vibrations and flutter.",
+    "audience": "Students keen on long-span bridge engineering, dynamics, and experimental fluid mechanics.",
+    "details": [
+      "Long-span cable-stayed bridges are especially sensitive to wind-induced instabilities. During this technical session, members toured our university's boundary layer wind tunnel facility to see how bridge deck aeroelastic models are constructed and monitored.",
+      "The wind engineering team ran a sectional model through multiple angle-of-attack tests to show vortex shedding locks and torsional flutter onset speeds.",
+      "We also examined tuned mass dampers and stay cable aerodynamic surface dimples designed to suppress rain-wind induced oscillations."
+    ],
+    "highlights": [
+      "Toured the 30-meter recirculating wind tunnel and acoustic measurement room",
+      "Watched a 1:50 scale bridge girder section model undergo flutter testing",
+      "Analyzed accelerometer and pressure transducer data streams in real time",
+      "Inspected stockbridge damper mechanisms and internal cable damping rings",
+      "Reviewed real-world bridge aeroelastic design criteria under AASHTO codes"
+    ],
+    "takeaways": [
+      "Deck cross-section geometry governs whether a bridge will experience catastrophic flutter or benign vortex oscillations",
+      "Helical ribs and dimples on stay cable sheathing break up rainwater rivulets that trigger vibrations",
+      "Physical wind tunnel validation is still required alongside computational fluid dynamics models"
+    ],
+    "published": true
+  }
+]

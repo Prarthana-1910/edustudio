@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#172A3A"/>
+  <!-- Glulam Beam & Cross-Laminated Timber (CLT) Floor Slab Detail -->
+  <rect x="150" y="160" width="500" height="40" fill="#F28C28" stroke="#F5F3EE" stroke-width="2"/>
+  <rect x="250" y="200" width="60" height="180" fill="#F5F3EE" stroke="#D9D9D6" stroke-width="2"/>
+  <rect x="490" y="200" width="60" height="180" fill="#F5F3EE" stroke="#D9D9D6" stroke-width="2"/>
+  <!-- Timber grain lines -->
+  <line x1="160" y1="172" x2="640" y2="172" stroke="#172A3A" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="160" y1="188" x2="640" y2="188" stroke="#172A3A" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Steel connector bracket -->
+  <rect x="235" y="195" width="90" height="30" fill="#F4C542" stroke="#172A3A" stroke-width="2"/>
+  <circle cx="250" cy="210" r="3" fill="#172A3A"/>
+  <circle cx="270" cy="210" r="3" fill="#172A3A"/>
+  <circle cx="290" cy="210" r="3" fill="#172A3A"/>
+  <circle cx="310" cy="210" r="3" fill="#172A3A"/>
+  <text x="60" y="60" fill="#F4C542" font-family="JetBrains Mono, monospace" font-size="14" font-weight="bold">DET TIM-03 // CONCEALED STEEL KNIFE-PLATE CONNECTION IN CLT-GLULAM</text>
+  <text x="60" y="85" fill="#D9D9D6" font-family="JetBrains Mono, monospace" font-size="11">CHAR RATE: 0.65mm/min | 2-HOUR ASTM E119 FIRE RESISTANCE RATING</text>
+</svg>
