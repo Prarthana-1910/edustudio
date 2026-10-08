@@ -1,0 +1,29 @@
+{
+  "_comment": "DUMMY team data. Add photo paths (e.g. /images/team/name.jpg) when available.",
+  "top": [
+    { "name": "[Name]", "role": "President", "photo": "" },
+    { "name": "[Name]", "role": "Vice President", "photo": "" },
+    { "name": "[Name]", "role": "Secretary", "photo": "" },
+    { "name": "[Name]", "role": "Joint Secretary", "photo": "" }
+  ],
+  "heads": [
+    { "name": "[Name]", "role": "[Designation]", "photo": "" },
+    { "name": "[Name]", "role": "[Designation]", "photo": "" },
+    { "name": "[Name]", "role": "[Designation]", "photo": "" },
+    { "name": "[Name]", "role": "[Designation]", "photo": "" },
+    { "name": "[Name]", "role": "[Designation]", "photo": "" },
+    { "name": "[Name]", "role": "[Designation]", "photo": "" },
+    { "name": "[Name]", "role": "[Designation]", "photo": "" },
+    { "name": "[Name]", "role": "[Designation]", "photo": "" }
+  ],
+  "members": [
+    { "name": "[Name]", "role": "[Team name]", "photo": "" },
+    { "name": "[Name]", "role": "[Team name]", "photo": "" },
+    { "name": "[Name]", "role": "[Team name]", "photo": "" },
+    { "name": "[Name]", "role": "[Team name]", "photo": "" },
+    { "name": "[Name]", "role": "[Team name]", "photo": "" },
+    { "name": "[Name]", "role": "[Team name]", "photo": "" },
+    { "name": "[Name]", "role": "[Team name]", "photo": "" },
+    { "name": "[Name]", "role": "[Team name]", "photo": "" }
+  ]
+}

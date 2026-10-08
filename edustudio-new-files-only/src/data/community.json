@@ -1,0 +1,12 @@
+{
+  "_comment": "DUMMY community & networking data.",
+  "companies": [
+    { "name": "[Company name]", "since": "[Year]", "collab": "[Collaboration details]", "image": "" },
+    { "name": "[Company name]", "since": "[Year]", "collab": "[Collaboration details]", "image": "" },
+    { "name": "[Company name]", "since": "[Year]", "collab": "[Collaboration details]", "image": "" }
+  ],
+  "universities": [
+    { "name": "[University name]", "desc": "[Short description of the collaboration]", "image": "" },
+    { "name": "[University name]", "desc": "[Short description of the collaboration]", "image": "" }
+  ]
+}
