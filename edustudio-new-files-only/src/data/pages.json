@@ -1,0 +1,38 @@
+{
+  "_comment": "DUMMY content for pages 1-4. Replace taglines / copy when the club provides them.",
+  "home": {
+    "heading": ["More than theories.", "We build understanding."],
+    "strip": ["Practical Knowledge", "Real World Exposure", "Hands On Learning", "Building Tomorrow"],
+    "rows": [
+      { "title": "About", "to": "/about", "blurb": "[Brief intro of the About page: a short summary]", "cta": "Open About" },
+      { "title": "What We Do", "to": "/what-we-do", "blurb": "[Brief intro of the What We Do page: a short summary]", "cta": "Open What We Do" },
+      { "title": "Team", "to": "/team", "blurb": "[Brief intro of the Team page: a short summary]", "cta": "Open Team" },
+      { "title": "Blogs", "to": "/blogs", "blurb": "[Brief intro of the Blogs page: a short summary]", "cta": "Open Blogs" },
+      { "title": "Events", "to": "/events", "blurb": "[Brief intro of the Events page: a short summary]", "cta": "Open Events" }
+    ]
+  },
+  "about": {
+    "tagline": "[Hero tagline]",
+    "support": "[Supporting line]",
+    "cards": [
+      { "title": "Who are we", "body": "[Content for this section: two to three lines of text]" },
+      { "title": "What we do", "body": "[Content for this section: two to three lines of text]" },
+      { "title": "How we do", "body": "[Content for this section: two to three lines of text]" },
+      { "title": "For whom we do", "body": "[Content for this section: two to three lines of text]" }
+    ]
+  },
+  "whatWeDo": {
+    "tagline": "[Hero tagline]",
+    "support": "[Supporting line]",
+    "activities": [
+      { "title": "Site Visits", "sub": "Explore beyond classrooms" },
+      { "title": "Workshops", "sub": "Hands-on sessions by experts" },
+      { "title": "Technical Talks", "sub": "Industry insights & real experiences" },
+      { "title": "Projects", "sub": "Apply knowledge & build solutions" }
+    ]
+  },
+  "team": {
+    "tagline": "[Hero tagline]",
+    "support": "[Supporting line]"
+  }
+}

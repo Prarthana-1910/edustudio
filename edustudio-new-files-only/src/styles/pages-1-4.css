@@ -1,0 +1,39 @@
+/* Styles for pages 1-4 (Home, About, What We Do, Team).
+   Kept in its own file so index.css (co-head's) stays untouched. */
+
+:root {
+  --lift-y: -12px;          /* hover lift distance, one place to tune */
+  --lift-scale: 1.015;
+}
+
+.stripes-p14 {
+  background-image: repeating-linear-gradient(
+    -45deg, #F4C542 0 14px, #172A3A 14px 28px
+  );
+}
+
+.lift {
+  transition: transform var(--dur-base) var(--ease-civil),
+              box-shadow var(--dur-base) var(--ease-civil),
+              border-color var(--dur-base) var(--ease-civil),
+              background-color var(--dur-base) var(--ease-civil);
+  will-change: transform;
+}
+.lift:hover, .lift:focus-visible {
+  transform: translateY(var(--lift-y)) scale(var(--lift-scale));
+  box-shadow: 0 28px 48px -18px rgba(23, 42, 58, 0.45);
+  border-color: var(--orange);
+}
+
+.lift-navy:hover, .lift-navy:focus-visible { background-color: var(--navy); color: var(--paper); }
+.lift-navy:hover .lift-sub, .lift-navy:focus-visible .lift-sub { color: var(--concrete); }
+
+.tcard .tphoto { transition: transform var(--dur-deliberate) var(--ease-civil); }
+.tcard:hover .tphoto { transform: scale(1.06); }
+.tcard .tname { transition: background-color var(--dur-base) var(--ease-civil), color var(--dur-base) var(--ease-civil); }
+.tcard:hover .tname { background-color: var(--orange); color: var(--navy); }
+
+@media (prefers-reduced-motion: reduce) {
+  .lift:hover, .lift:focus-visible { transform: none; }
+  .tcard:hover .tphoto { transform: none; }
+}
